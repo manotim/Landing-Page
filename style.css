@@ -1,0 +1,92 @@
+* {
+    font-family: sans-serif;
+    font-size: 0.85rem;
+}
+
+.logo {
+    font-size: 1.4rem;
+}
+
+nav {
+    justify-content: space-between;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    background-color:#EFE34D;
+}
+
+nav,
+.cta-btns,
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.cta-btns li,
+.menu-items li {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    color: hsl(0, 0%, 11%);
+}
+
+.cta-btns li:nth-last-child(1) {
+    border: 1px solid gray;
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+li {
+    list-style: none;
+    
+}
+
+.clients-logos {
+    margin-top: 4rem;
+}
+
+.clients-logos img {
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+.clients-logos img:nth-child(2) {
+    width: 3rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+    height: 70vh;
+}
+
+main h1 {
+    font-size: 3rem;
+}
+
+main p {
+    font-size: 1.1rem;
+    width: 18rem;
+    color: hsl(0, 0%, 41%);
+    line-height: 0.9rem;
+}
+
+main button {
+    background-color: hsl(0, 0%, 8%);
+    color: #fff;
+    border: none;
+    font-size: 0.7rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+
+#text-side {
+    margin-top: 3rem;
+}
+
+#img-side img {
+    width: 20rem;
+}
+
+/* Media Queries */
