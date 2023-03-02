@@ -21,10 +21,12 @@ nav,
 }
 
 .cta-btns li,
+.cta-btns li a,
 .menu-items li {
     font-size: 1.4rem;
     margin-right: 1rem;
     color: hsl(0, 0%, 11%);
+    text-decoration: none;
 }
 
 .cta-btns li:nth-last-child(1) {
